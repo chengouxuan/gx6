@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;gx6/src/ProcessParams.h&apos; to &apos;ProcessResources.h&apos;" description="Rename resource &apos;ProcessParams.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ProcessParams.h" name="ProcessResources.h" stamp="1368274373190" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;gx6/src/ProcessParams.cpp&apos; to &apos;ProcessResources.cpp&apos;" description="Rename resource &apos;ProcessParams.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ProcessParams.cpp" name="ProcessResources.cpp" stamp="1368274386987" updateReferences="true"/>
+</session>

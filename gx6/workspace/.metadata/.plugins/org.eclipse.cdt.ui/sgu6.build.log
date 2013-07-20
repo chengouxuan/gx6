@@ -1,0 +1,7 @@
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lwsock32
+Build complete for project sgu6
+Time consumed: 437  ms.  

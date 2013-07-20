@@ -1,0 +1,1203 @@
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lC:\MinGW\lib\libwsock32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -lC:\MinGW\lib\libwsock32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 84  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lC:\MinGW\lib\libwsock32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -lC:\MinGW\lib\libwsock32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 547  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lC:\MinGW\lib\libwsock32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -lC:\MinGW\lib\libwsock32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 416  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lC:\MinGW\lib\libwsock32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -lC:\MinGW\lib\libwsock32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 198  ms.  
+
+**** Clean-only build of configuration Debug for project sgu6 ****
+rm -rf src/Zone.o src/opening/opening.o src/Zone.d src/MoveSearcher.o src/RandTable.o src/DPointTable.d src/MoveGenerator.o src/MoveSearcher.d src/OpeningFinder.o src/MoveGenerator.d src/DPointTable.o src/RandTable.d src/opening/opening.d src/Frame.o src/SegmentTable.o sgu6.exe src/saver/saver.d src/SegmentTable.d src/Frame.d src/ComplexBoard.o src/DTSSer.o src/Evaluator.d src/HistoryScore.d src/HistoryScore.o src/main.d src/utilities.o src/DTSSer.d src/utilities.d src/RZDefender.d src/saver/saver.o src/OpeningFinder.d src/Evaluator.o src/ComplexBoard.d src/RZDefender.o src/main.o
+Internal Builder: Cannot run program "rm": Launching failed
+Error: Program "rm" is not found in PATH
+
+PATH=[C:\MinGW\bin;D:/jdk1.6.0_27/bin/../jre/bin/server;D:/jdk1.6.0_27/bin/../jre/bin;D:/jdk1.6.0_27/bin/../jre/lib/amd64;D:\work\adt-bundle-windows-x86_64-20130219\sdk\platform-tools;C:\Program Files\TortoiseSVN\bin;D:\jdk1.6.0_27\bin;C:\Program Files\make\make-3.81-bin\bin;C:\Program Files (x86)\GnuWin32\bin;D:\work\adt-bundle-windows-x86_64-20130219\eclipse]
+
+**** Clean-only build of configuration Debug for project sgu6 ****
+Build complete for project sgu6
+
+**** Rebuild of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\OpeningFinder.o ..\src\OpeningFinder.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\ComplexBoard.o ..\src\ComplexBoard.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\Evaluator.o ..\src\Evaluator.cpp
+..\src\Evaluator.cpp: In constructor 'Evaluator::Evaluator()':
+..\src\Evaluator.cpp:25:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\Evaluator.cpp:25:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\RZDefender.o ..\src\RZDefender.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\DTSSer.o ..\src\DTSSer.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\HistoryScore.o ..\src\HistoryScore.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\saver\saver.o ..\src\saver\saver.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\DPointTable.o ..\src\DPointTable.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\main.o ..\src\main.cpp
+..\src\main.cpp:15:0: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+..\src\main.cpp: In function 'int main(int, char**)':
+..\src\main.cpp:202:46: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\main.cpp: In function 'DWORD SearchRequestProcessing(LPVOID)':
+..\src\main.cpp:274:1: warning: no return statement in function returning non-void [-Wreturn-type]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\Zone.o ..\src\Zone.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\MoveSearcher.o ..\src\MoveSearcher.cpp
+..\src\MoveSearcher.cpp: In member function 'void MoveSearcher::SearchGoodMoves(CellType (*)[19], bool, int)':
+..\src\MoveSearcher.cpp:44:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'DWORD {aka long unsigned int}' [-Wformat]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\Frame.o ..\src\Frame.cpp
+..\src\Frame.cpp: In member function 'int Frame::IDMTDF(bool)':
+..\src\Frame.cpp:195:39: warning: format '%d' expects argument of type 'int', but argument 2 has type 'clock_t {aka long int}' [-Wformat]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\RandTable.o ..\src\RandTable.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\SegmentTable.o ..\src\SegmentTable.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\MoveGenerator.o ..\src\MoveGenerator.cpp
+..\src\MoveGenerator.cpp: In member function 'void MoveGenerator::Couple(bool, Zone&, MGMoveArray&, int, MGDMoveArray&)':
+..\src\MoveGenerator.cpp:182:19: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\opening\opening.o ..\src\opening\opening.cpp
+..\src\opening\opening.cpp: In member function 'void Opening::BuildTable()':
+..\src\opening\opening.cpp:136:77: warning: format '%s' expects argument of type 'char*', but argument 3 has type 'FILE* {aka _iobuf*}' [-Wformat]
+..\src\opening\opening.cpp:149:41: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:162:75: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:168:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\opening\opening.cpp:181:71: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:184:72: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:211:60: warning: statement has no effect [-Wunused-value]
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o src\utilities.o ..\src\utilities.cpp
+..\src\utilities.cpp:56:7: warning: extra tokens at end of #endif directive [enabled by default]
+..\src\utilities.cpp: In function 'void PrintBoard(CellType (*)[19])':
+..\src\utilities.cpp:50:15: warning: enumeration value 'CELL_TYPE_NOT_A_CELL' not handled in switch [-Wswitch]
+g++ -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lC:\MinGW\lib\libwsock32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -lC:\MinGW\lib\libwsock32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 10393  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lC:\MinGW\lib\libwsock32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -lC:\MinGW\lib\libwsock32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 138  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -LC:\MinGW\lib -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o
+src\main.o: In function `main':
+E:\workspace\sgu6\Debug/../src/main.cpp:149: undefined reference to `WSAStartup@8'
+E:\workspace\sgu6\Debug/../src/main.cpp:162: undefined reference to `socket@12'
+E:\workspace\sgu6\Debug/../src/main.cpp:168: undefined reference to `htonl@4'
+E:\workspace\sgu6\Debug/../src/main.cpp:170: undefined reference to `htons@4'
+E:\workspace\sgu6\Debug/../src/main.cpp:172: undefined reference to `bind@12'
+E:\workspace\sgu6\Debug/../src/main.cpp:177: undefined reference to `listen@8'
+E:\workspace\sgu6\Debug/../src/main.cpp:193: undefined reference to `accept@12'
+E:\workspace\sgu6\Debug/../src/main.cpp:201: undefined reference to `recv@16'
+src\main.o: In function `Z23SearchRequestProcessingPv':
+E:\workspace\sgu6\Debug/../src/main.cpp:271: undefined reference to `send@16'
+E:\workspace\sgu6\Debug/../src/main.cpp:272: undefined reference to `closesocket@4'
+src\main.o: In function `ZN6ReqQue11clearAllReqEv':
+E:\workspace\sgu6\Debug/../src/main.cpp:110: undefined reference to `closesocket@4'
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 335  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -LC:\MinGW\lib -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -llibws2_32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -llibws2_32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 87  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -LC:\MinGW\lib -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -llibws2_32
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -llibws2_32
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 83  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -LC:\MinGW\lib -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -llibws2_32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -llibws2_32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 136  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -LC:\MinGW\lib -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -llibws2_32.a -llibwsock32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -llibws2_32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -llibwsock32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 91  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -LC:\MinGW\lib -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -llibws2_32.a -llibwsock32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -llibws2_32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -llibwsock32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 91  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -LC:\MinGW\lib -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -llibws2_32.a -llibwsock32.a
+Internal Builder: Cannot run program "g++": Launching failed
+Error: Program "g++" is not found in PATH
+
+PATH=[C:\MinGW\bin::\;D:/jdk1.6.0_27/bin/../jre/bin/server;D:/jdk1.6.0_27/bin/../jre/bin;D:/jdk1.6.0_27/bin/../jre/lib/amd64;D:\work\adt-bundle-windows-x86_64-20130219\sdk\platform-tools;C:\Program Files\TortoiseSVN\bin;D:\jdk1.6.0_27\bin;C:\Program Files\make\make-3.81-bin\bin;C:\Program Files (x86)\GnuWin32\bin;D:\work\adt-bundle-windows-x86_64-20130219\eclipse]
+Build error occurred, build is stopped
+Time consumed: 68  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -LC:\MinGW\lib -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -llibws2_32.a -llibwsock32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -llibws2_32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -llibwsock32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 140  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -LC:\MinGW\lib -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -llibws2_32.a -llibwsock32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -llibws2_32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -llibwsock32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 87  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -LC:\MinGW\lib -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lC:\MinGW\lib\libws2_32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -lC:\MinGW\lib\libws2_32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 87  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+ld -LC:\MinGW\lib -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lC:\MinGW\lib\libws2_32.a
+ld: cannot find -lC:\MinGW\lib\libws2_32.a
+Build error occurred, build is stopped
+Time consumed: 114  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -LC:\MinGW\lib -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lC:\MinGW\lib\libws2_32.a
+c:/mingw/bin/../lib/gcc/mingw32/4.6.2/../../../../mingw32/bin/ld.exe: cannot find -lC:\MinGW\lib\libws2_32.a
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 87  ms.  
+
+**** Build of configuration Debug for project sgu6 ****
+
+**** Internal Builder is used for build               ****
+g++ -o sgu6.exe src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lwsock32
+Build complete for project sgu6
+Time consumed: 437  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+make all 
+make: *** 没有规则可以创建目标“all”。 停止。
+
+**** Build Finished ****
+
+**** Build of configuration Default for project gx6 ****
+
+make all 
+make: *** 没有规则可以创建目标“all”。 停止。
+
+**** Build Finished ****
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Build error
+null
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\HistoryScore.o ..\src\HistoryScore.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\DPointTable.o ..\src\DPointTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\main.o ..\src\main.cpp
+..\src\main.cpp:15:0: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+..\src\main.cpp: In function 'int main(int, char**)':
+..\src\main.cpp:202:46: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\main.cpp: In function 'DWORD SearchRequestProcessing(LPVOID)':
+..\src\main.cpp:274:1: warning: no return statement in function returning non-void [-Wreturn-type]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\SegmentTable.o ..\src\SegmentTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\RZDefender.o ..\src\RZDefender.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\DTSSer.o ..\src\DTSSer.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\saver\saver.o ..\src\saver\saver.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Zone.o ..\src\Zone.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\OpeningFinder.o ..\src\OpeningFinder.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Evaluator.o ..\src\Evaluator.cpp
+..\src\Evaluator.cpp: In constructor 'Evaluator::Evaluator()':
+..\src\Evaluator.cpp:25:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\Evaluator.cpp:25:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\RandTable.o ..\src\RandTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\utilities.o ..\src\utilities.cpp
+..\src\utilities.cpp:56:7: warning: extra tokens at end of #endif directive [enabled by default]
+..\src\utilities.cpp: In function 'void PrintBoard(CellType (*)[19])':
+..\src\utilities.cpp:50:15: warning: enumeration value 'CELL_TYPE_NOT_A_CELL' not handled in switch [-Wswitch]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\ComplexBoard.o ..\src\ComplexBoard.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\opening\opening.o ..\src\opening\opening.cpp
+..\src\opening\opening.cpp: In member function 'void Opening::BuildTable()':
+..\src\opening\opening.cpp:136:77: warning: format '%s' expects argument of type 'char*', but argument 3 has type 'FILE* {aka _iobuf*}' [-Wformat]
+..\src\opening\opening.cpp:149:41: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:162:75: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:168:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\opening\opening.cpp:181:71: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:184:72: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:211:60: warning: statement has no effect [-Wunused-value]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Frame.o ..\src\Frame.cpp
+..\src\Frame.cpp: In member function 'int Frame::IDMTDF(bool)':
+..\src\Frame.cpp:195:39: warning: format '%d' expects argument of type 'int', but argument 2 has type 'clock_t {aka long int}' [-Wformat]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveGenerator.o ..\src\MoveGenerator.cpp
+..\src\MoveGenerator.cpp: In member function 'void MoveGenerator::Couple(bool, Zone&, MGMoveArray&, int, MGDMoveArray&)':
+..\src\MoveGenerator.cpp:182:19: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveSearcher.o ..\src\MoveSearcher.cpp
+..\src\MoveSearcher.cpp: In member function 'void MoveSearcher::SearchGoodMoves(CellType (*)[19], bool, int)':
+..\src\MoveSearcher.cpp:44:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'DWORD {aka long unsigned int}' [-Wformat]
+g++ -o gx6 src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o
+src\main.o: In function `Z23SearchRequestProcessingPv':
+E:\workspace\gx6\Default/../src/main.cpp:271: undefined reference to `send@16'
+E:\workspace\gx6\Default/../src/main.cpp:272: undefined reference to `closesocket@4'
+src\main.o: In function `main':
+E:\workspace\gx6\Default/../src/main.cpp:149: undefined reference to `WSAStartup@8'
+E:\workspace\gx6\Default/../src/main.cpp:162: undefined reference to `socket@12'
+E:\workspace\gx6\Default/../src/main.cpp:168: undefined reference to `htonl@4'
+E:\workspace\gx6\Default/../src/main.cpp:170: undefined reference to `htons@4'
+E:\workspace\gx6\Default/../src/main.cpp:172: undefined reference to `bind@12'
+E:\workspace\gx6\Default/../src/main.cpp:177: undefined reference to `listen@8'
+src\main.o: In function `ZN6ReqQue11clearAllReqEv':
+E:\workspace\gx6\Default/../src/main.cpp:110: undefined reference to `closesocket@4'
+src\main.o: In function `main':
+E:\workspace\gx6\Default/../src/main.cpp:193: undefined reference to `accept@12'
+E:\workspace\gx6\Default/../src/main.cpp:201: undefined reference to `recv@16'
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 7491  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -o gx6 src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o
+src\main.o: In function `Z23SearchRequestProcessingPv':
+E:\workspace\gx6\Default/../src/main.cpp:271: undefined reference to `send@16'
+E:\workspace\gx6\Default/../src/main.cpp:272: undefined reference to `closesocket@4'
+src\main.o: In function `main':
+E:\workspace\gx6\Default/../src/main.cpp:149: undefined reference to `WSAStartup@8'
+E:\workspace\gx6\Default/../src/main.cpp:162: undefined reference to `socket@12'
+E:\workspace\gx6\Default/../src/main.cpp:168: undefined reference to `htonl@4'
+E:\workspace\gx6\Default/../src/main.cpp:170: undefined reference to `htons@4'
+E:\workspace\gx6\Default/../src/main.cpp:172: undefined reference to `bind@12'
+E:\workspace\gx6\Default/../src/main.cpp:177: undefined reference to `listen@8'
+src\main.o: In function `ZN6ReqQue11clearAllReqEv':
+E:\workspace\gx6\Default/../src/main.cpp:110: undefined reference to `closesocket@4'
+src\main.o: In function `main':
+E:\workspace\gx6\Default/../src/main.cpp:193: undefined reference to `accept@12'
+E:\workspace\gx6\Default/../src/main.cpp:201: undefined reference to `recv@16'
+collect2: ld returned 1 exit status
+Build error occurred, build is stopped
+Time consumed: 182  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -o gx6 src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lwsock32
+Build complete for project gx6
+Time consumed: 183  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6
+
+**** Clean-only build of configuration Default for project gx6 ****
+del src/saver/saver.d src/saver/saver.o src/Frame.d src/RandTable.o src/SegmentTable.o gx6 src/SegmentTable.d src/MoveSearcher.d src/utilities.d src/RandTable.d src/MoveSearcher.o src/RZDefender.o src/MoveGenerator.d src/MoveGenerator.o src/RZDefender.d src/main.d src/main.o src/DTSSer.o src/ComplexBoard.d src/Evaluator.o src/opening/opening.o src/Evaluator.d src/opening/opening.d src/utilities.o src/DPointTable.o src/DTSSer.d src/DPointTable.d src/Zone.d src/OpeningFinder.o src/OpeningFinder.d src/ComplexBoard.o src/Zone.o src/Frame.o src/HistoryScore.d src/HistoryScore.o
+Internal Builder: Cannot run program "del": Launching failed
+Error: Program "del" is not found in PATH
+
+PATH=[C:\MinGW\bin;D:/jdk1.6.0_27/bin/../jre/bin/server;D:/jdk1.6.0_27/bin/../jre/bin;D:/jdk1.6.0_27/bin/../jre/lib/amd64;D:\work\adt-bundle-windows-x86_64-20130219\sdk\platform-tools;C:\Program Files\TortoiseSVN\bin;D:\jdk1.6.0_27\bin;C:\Program Files\make\make-3.81-bin\bin;C:\Program Files (x86)\GnuWin32\bin;D:\work\adt-bundle-windows-x86_64-20130219\eclipse]
+
+**** Clean-only build of configuration Default for project gx6 ****
+Build complete for project gx6
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\HistoryScore.o ..\src\HistoryScore.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveGenerator.o ..\src\MoveGenerator.cpp
+..\src\MoveGenerator.cpp: In member function 'void MoveGenerator::Couple(bool, Zone&, MGMoveArray&, int, MGDMoveArray&)':
+..\src\MoveGenerator.cpp:182:19: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\SegmentTable.o ..\src\SegmentTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Evaluator.o ..\src\Evaluator.cpp
+..\src\Evaluator.cpp: In constructor 'Evaluator::Evaluator()':
+..\src\Evaluator.cpp:25:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\Evaluator.cpp:25:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\main.o ..\src\main.cpp
+..\src\main.cpp:15:0: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+..\src\main.cpp: In function 'int main(int, char**)':
+..\src\main.cpp:202:46: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\main.cpp: In function 'DWORD SearchRequestProcessing(LPVOID)':
+..\src\main.cpp:274:1: warning: no return statement in function returning non-void [-Wreturn-type]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\RZDefender.o ..\src\RZDefender.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Frame.o ..\src\Frame.cpp
+..\src\Frame.cpp: In member function 'int Frame::IDMTDF(bool)':
+..\src\Frame.cpp:195:39: warning: format '%d' expects argument of type 'int', but argument 2 has type 'clock_t {aka long int}' [-Wformat]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\OpeningFinder.o ..\src\OpeningFinder.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\ComplexBoard.o ..\src\ComplexBoard.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\saver\saver.o ..\src\saver\saver.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\utilities.o ..\src\utilities.cpp
+..\src\utilities.cpp:56:7: warning: extra tokens at end of #endif directive [enabled by default]
+..\src\utilities.cpp: In function 'void PrintBoard(CellType (*)[19])':
+..\src\utilities.cpp:50:15: warning: enumeration value 'CELL_TYPE_NOT_A_CELL' not handled in switch [-Wswitch]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveSearcher.o ..\src\MoveSearcher.cpp
+..\src\MoveSearcher.cpp: In member function 'void MoveSearcher::SearchGoodMoves(CellType (*)[19], bool, int)':
+..\src\MoveSearcher.cpp:44:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'DWORD {aka long unsigned int}' [-Wformat]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Zone.o ..\src\Zone.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\RandTable.o ..\src\RandTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\DTSSer.o ..\src\DTSSer.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\opening\opening.o ..\src\opening\opening.cpp
+..\src\opening\opening.cpp: In member function 'void Opening::BuildTable()':
+..\src\opening\opening.cpp:136:77: warning: format '%s' expects argument of type 'char*', but argument 3 has type 'FILE* {aka _iobuf*}' [-Wformat]
+..\src\opening\opening.cpp:149:41: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:162:75: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:168:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\opening\opening.cpp:181:71: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:184:72: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:211:60: warning: statement has no effect [-Wunused-value]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\DPointTable.o ..\src\DPointTable.cpp
+g++ -o gx6 src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lwsock32
+Build complete for project gx6
+Time consumed: 7251  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6
+
+**** Clean-only build of configuration Default for project gx6 ****
+del src/saver/saver.d src/saver/saver.o src/Frame.d src/RandTable.o src/SegmentTable.o gx6 src/SegmentTable.d src/MoveSearcher.d src/utilities.d src/RandTable.d src/MoveSearcher.o src/RZDefender.o src/MoveGenerator.d src/MoveGenerator.o src/RZDefender.d src/main.d src/main.o src/DTSSer.o src/ComplexBoard.d src/Evaluator.o src/opening/opening.o src/Evaluator.d src/opening/opening.d src/utilities.o src/DPointTable.o src/DTSSer.d src/DPointTable.d src/Zone.d src/OpeningFinder.o src/OpeningFinder.d src/ComplexBoard.o src/Zone.o src/Frame.o src/HistoryScore.d src/HistoryScore.o
+Internal Builder: Cannot run program "del": Launching failed
+Error: Program "del" is not found in PATH
+
+PATH=[C:\MinGW\bin;D:/jdk1.6.0_27/bin/../jre/bin/server;D:/jdk1.6.0_27/bin/../jre/bin;D:/jdk1.6.0_27/bin/../jre/lib/amd64;D:\work\adt-bundle-windows-x86_64-20130219\sdk\platform-tools;C:\Program Files\TortoiseSVN\bin;D:\jdk1.6.0_27\bin;C:\Program Files\make\make-3.81-bin\bin;C:\Program Files (x86)\GnuWin32\bin;D:\work\adt-bundle-windows-x86_64-20130219\eclipse]
+
+**** Clean-only build of configuration Default for project gx6 ****
+Build complete for project gx6
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\opening\opening.o ..\src\opening\opening.cpp
+..\src\opening\opening.cpp: In member function 'void Opening::BuildTable()':
+..\src\opening\opening.cpp:136:77: warning: format '%s' expects argument of type 'char*', but argument 3 has type 'FILE* {aka _iobuf*}' [-Wformat]
+..\src\opening\opening.cpp:149:41: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:162:75: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:168:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\opening\opening.cpp:181:71: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:184:72: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:211:60: warning: statement has no effect [-Wunused-value]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveGenerator.o ..\src\MoveGenerator.cpp
+..\src\MoveGenerator.cpp: In member function 'void MoveGenerator::Couple(bool, Zone&, MGMoveArray&, int, MGDMoveArray&)':
+..\src\MoveGenerator.cpp:182:19: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\RandTable.o ..\src\RandTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveSearcher.o ..\src\MoveSearcher.cpp
+..\src\MoveSearcher.cpp: In member function 'void MoveSearcher::SearchGoodMoves(CellType (*)[19], bool, int)':
+..\src\MoveSearcher.cpp:44:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'DWORD {aka long unsigned int}' [-Wformat]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Frame.o ..\src\Frame.cpp
+..\src\Frame.cpp: In member function 'int Frame::IDMTDF(bool)':
+..\src\Frame.cpp:195:39: warning: format '%d' expects argument of type 'int', but argument 2 has type 'clock_t {aka long int}' [-Wformat]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Zone.o ..\src\Zone.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\main.o ..\src\main.cpp
+..\src\main.cpp:15:0: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+..\src\main.cpp: In function 'int main(int, char**)':
+..\src\main.cpp:202:46: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\main.cpp: In function 'DWORD SearchRequestProcessing(LPVOID)':
+..\src\main.cpp:274:1: warning: no return statement in function returning non-void [-Wreturn-type]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\DPointTable.o ..\src\DPointTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\utilities.o ..\src\utilities.cpp
+..\src\utilities.cpp:56:7: warning: extra tokens at end of #endif directive [enabled by default]
+..\src\utilities.cpp: In function 'void PrintBoard(CellType (*)[19])':
+..\src\utilities.cpp:50:15: warning: enumeration value 'CELL_TYPE_NOT_A_CELL' not handled in switch [-Wswitch]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\SegmentTable.o ..\src\SegmentTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Evaluator.o ..\src\Evaluator.cpp
+..\src\Evaluator.cpp: In constructor 'Evaluator::Evaluator()':
+..\src\Evaluator.cpp:25:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\Evaluator.cpp:25:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\RZDefender.o ..\src\RZDefender.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\HistoryScore.o ..\src\HistoryScore.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\DTSSer.o ..\src\DTSSer.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\OpeningFinder.o ..\src\OpeningFinder.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\ComplexBoard.o ..\src\ComplexBoard.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\saver\saver.o ..\src\saver\saver.cpp
+g++ -o gx6 src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lwsock32
+Build complete for project gx6
+Time consumed: 7262  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetter.o ..\src\GameDataGetter.cpp
+In file included from ..\src\/GameDataGetter.h:11:0,
+                 from ..\src\GameDataGetter.cpp:8:
+..\src\/GameData.h:24:3: error: declaration of 'WHITE'
+..\src\/GameData.h:15:10: error: conflicts with previous declaration 'GameData::CellType GameData::WHITE'
+..\src\/GameData.h:24:10: error: declaration of 'BLACK'
+..\src\/GameData.h:15:17: error: conflicts with previous declaration 'GameData::CellType GameData::BLACK'
+Build error occurred, build is stopped
+Time consumed: 1509  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\ComplexBoard.o ..\src\ComplexBoard.cpp
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\main.o ..\src\main.cpp
+..\src\main.cpp:15:0: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+..\src\main.cpp: In function 'int main(int, char**)':
+..\src\main.cpp:202:46: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\main.cpp: In function 'DWORD SearchRequestProcessing(LPVOID)':
+..\src\main.cpp:274:1: warning: no return statement in function returning non-void [-Wreturn-type]
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\Zone.o ..\src\Zone.cpp
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveGenerator.o ..\src\MoveGenerator.cpp
+..\src\MoveGenerator.cpp: In member function 'void MoveGenerator::Couple(bool, Zone&, MGMoveArray&, int, MGDMoveArray&)':
+..\src\MoveGenerator.cpp:182:19: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\OpeningFinder.o ..\src\OpeningFinder.cpp
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveSearcher.o ..\src\MoveSearcher.cpp
+..\src\MoveSearcher.cpp: In member function 'void MoveSearcher::SearchGoodMoves(CellType (*)[19], bool, int)':
+..\src\MoveSearcher.cpp:44:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'DWORD {aka long unsigned int}' [-Wformat]
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameData.o ..\src\GameData.cpp
+In file included from ..\src\GameData.cpp:8:0:
+..\src\/GameData.h:24:3: error: declaration of 'WHITE'
+..\src\/GameData.h:15:10: error: conflicts with previous declaration 'GameData::CellType GameData::WHITE'
+..\src\/GameData.h:24:10: error: declaration of 'BLACK'
+..\src\/GameData.h:15:17: error: conflicts with previous declaration 'GameData::CellType GameData::BLACK'
+Build error occurred, build is stopped
+Time consumed: 3498  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameData.o ..\src\GameData.cpp
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\Evaluator.o ..\src\Evaluator.cpp
+..\src\Evaluator.cpp: In constructor 'Evaluator::Evaluator()':
+..\src\Evaluator.cpp:25:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\Evaluator.cpp:25:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetterIO.o ..\src\GameDataGetterIO.cpp
+In file included from ..\src\GameDataGetterIO.cpp:8:0:
+..\src\/GameDataGetterIO.h:21:23: error: 'GameData' has not been declared
+..\src\GameDataGetterIO.cpp:34:6: error: prototype for 'bool GameDataGetterIO::getNextGameData(GameData*)' does not match any in class 'GameDataGetterIO'
+..\src\/GameDataGetterIO.h:21:7: error: candidate is: bool GameDataGetterIO::getNextGameData(int*)
+Build error occurred, build is stopped
+Time consumed: 901  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\RZDefender.o ..\src\RZDefender.cpp
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\SegmentTable.o ..\src\SegmentTable.cpp
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetter.o ..\src\GameDataGetter.cpp
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\opening\opening.o ..\src\opening\opening.cpp
+..\src\opening\opening.cpp: In member function 'void Opening::BuildTable()':
+..\src\opening\opening.cpp:136:77: warning: format '%s' expects argument of type 'char*', but argument 3 has type 'FILE* {aka _iobuf*}' [-Wformat]
+..\src\opening\opening.cpp:149:41: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:162:75: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:168:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\opening\opening.cpp:181:71: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:184:72: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:211:60: warning: statement has no effect [-Wunused-value]
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\saver\saver.o ..\src\saver\saver.cpp
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetterIO.o ..\src\GameDataGetterIO.cpp
+In file included from ..\src\GameDataGetterIO.cpp:8:0:
+..\src\/GameDataGetterIO.h:21:23: error: 'GameData' has not been declared
+..\src\GameDataGetterIO.cpp:34:6: error: prototype for 'bool GameDataGetterIO::getNextGameData(GameData*)' does not match any in class 'GameDataGetterIO'
+..\src\/GameDataGetterIO.h:21:7: error: candidate is: bool GameDataGetterIO::getNextGameData(int*)
+Build error occurred, build is stopped
+Time consumed: 2402  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\DTSSer.o ..\src\DTSSer.cpp
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\ProcessResources.o ..\src\ProcessResources.cpp
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\HistoryScore.o ..\src\HistoryScore.cpp
+g++ -IC:\MinGW\lib\gcc\mingw32\4.6.2\include\c++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetter.o ..\src\GameDataGetter.cpp
+..\src\GameDataGetter.cpp: In member function 'bool GameDataGetter::get(GameData*)':
+..\src\GameDataGetter.cpp:25:73: error: no matching function for call to 'GameDataGetterIO::getNextGameData(GameData*&)'
+..\src\GameDataGetter.cpp:25:73: note: candidate is:
+..\src\/GameDataGetterIO.h:23:7: note: bool GameDataGetterIO::getNextGameData(GameDataGetterIO::GameData*)
+..\src\/GameDataGetterIO.h:23:7: note:   no known conversion for argument 1 from 'GameData*' to 'GameDataGetterIO::GameData*'
+Build error occurred, build is stopped
+Time consumed: 1116  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\HistoryScore.o ..\src\HistoryScore.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveGenerator.o ..\src\MoveGenerator.cpp
+..\src\MoveGenerator.cpp: In member function 'void MoveGenerator::Couple(bool, Zone&, MGMoveArray&, int, MGDMoveArray&)':
+..\src\MoveGenerator.cpp:182:19: warning: variable 'p' set but not used [-Wunused-but-set-variable]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Frame.o ..\src\Frame.cpp
+..\src\Frame.cpp: In member function 'int Frame::IDMTDF(bool)':
+..\src\Frame.cpp:195:39: warning: format '%d' expects argument of type 'int', but argument 2 has type 'clock_t {aka long int}' [-Wformat]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Evaluator.o ..\src\Evaluator.cpp
+..\src\Evaluator.cpp: In constructor 'Evaluator::Evaluator()':
+..\src\Evaluator.cpp:25:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\Evaluator.cpp:25:13: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetter.o ..\src\GameDataGetter.cpp
+..\src\GameDataGetter.cpp: In member function 'bool GameDataGetter::get(GameData*)':
+..\src\GameDataGetter.cpp:26:73: error: no matching function for call to 'GameDataGetterIO::getNextGameData(GameData*&)'
+..\src\GameDataGetter.cpp:26:73: note: candidate is:
+..\src\/GameDataGetterIO.h:23:7: note: bool GameDataGetterIO::getNextGameData(GameDataGetterIO::GameData*)
+..\src\/GameDataGetterIO.h:23:7: note:   no known conversion for argument 1 from 'GameData*' to 'GameDataGetterIO::GameData*'
+Build error occurred, build is stopped
+Time consumed: 2782  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\DPointTable.o ..\src\DPointTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetter.o ..\src\GameDataGetter.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\RZDefender.o ..\src\RZDefender.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\saver\saver.o ..\src\saver\saver.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\ComplexBoard.o ..\src\ComplexBoard.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveSearcher.o ..\src\MoveSearcher.cpp
+..\src\MoveSearcher.cpp: In member function 'void MoveSearcher::SearchGoodMoves(CellType (*)[19], bool, int)':
+..\src\MoveSearcher.cpp:44:41: warning: format '%d' expects argument of type 'int', but argument 2 has type 'DWORD {aka long unsigned int}' [-Wformat]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\main.o ..\src\main.cpp
+..\src\main.cpp:15:0: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+..\src\main.cpp: In function 'int main(int, char**)':
+..\src\main.cpp:202:46: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\main.cpp: In function 'DWORD SearchRequestProcessing(LPVOID)':
+..\src\main.cpp:274:1: warning: no return statement in function returning non-void [-Wreturn-type]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\RandTable.o ..\src\RandTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Zone.o ..\src\Zone.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\SegmentTable.o ..\src\SegmentTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\ProcessResources.o ..\src\ProcessResources.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\DTSSer.o ..\src\DTSSer.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\utilities.o ..\src\utilities.cpp
+..\src\utilities.cpp:56:7: warning: extra tokens at end of #endif directive [enabled by default]
+..\src\utilities.cpp: In function 'void PrintBoard(CellType (*)[19])':
+..\src\utilities.cpp:50:15: warning: enumeration value 'CELL_TYPE_NOT_A_CELL' not handled in switch [-Wswitch]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameData.o ..\src\GameData.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\OpeningFinder.o ..\src\OpeningFinder.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\opening\opening.o ..\src\opening\opening.cpp
+..\src\opening\opening.cpp: In member function 'void Opening::BuildTable()':
+..\src\opening\opening.cpp:136:77: warning: format '%s' expects argument of type 'char*', but argument 3 has type 'FILE* {aka _iobuf*}' [-Wformat]
+..\src\opening\opening.cpp:149:41: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:162:75: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:168:48: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\opening\opening.cpp:181:71: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:184:72: warning: statement has no effect [-Wunused-value]
+..\src\opening\opening.cpp:211:60: warning: statement has no effect [-Wunused-value]
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetterIO.o ..\src\GameDataGetterIO.cpp
+..\src\GameDataGetterIO.cpp: In member function 'bool GameDataGetterIO::getNextGameData(GameData*)':
+..\src\GameDataGetterIO.cpp:54:3: error: 'RequestData' was not declared in this scope
+..\src\GameDataGetterIO.cpp:54:15: error: expected ';' before 'req'
+..\src\GameDataGetterIO.cpp:57:46: error: 'req' was not declared in this scope
+..\src\GameDataGetterIO.cpp:68:7: error: 'req' was not declared in this scope
+..\src\GameDataGetterIO.cpp:68:20: error: 'RequestData' is not a class or namespace
+..\src\GameDataGetterIO.cpp:69:54: error: 'printf' was not declared in this scope
+..\src\GameDataGetterIO.cpp:73:3: error: 'req' was not declared in this scope
+..\src\GameDataGetterIO.cpp:73:3: error: 'RequestData' is not a class or namespace
+..\src\GameDataGetterIO.cpp:77:54: error: 'CELL_TYPE_WHITE' was not declared in this scope
+..\src\GameDataGetterIO.cpp:78:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)1u'
+..\src\GameDataGetterIO.cpp:78:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:79:61: error: 'CELL_TYPE_BLACK' was not declared in this scope
+..\src\GameDataGetterIO.cpp:80:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)2u'
+..\src\GameDataGetterIO.cpp:80:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:82:6: error: 'CELL_TYPE_EMPTY' was not declared in this scope
+..\src\GameDataGetterIO.cpp:83:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)0u'
+..\src\GameDataGetterIO.cpp:83:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:89:1: warning: control reaches end of non-void function [-Wreturn-type]
+Build error occurred, build is stopped
+Time consumed: 5614  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetterIO.o ..\src\GameDataGetterIO.cpp
+In file included from ..\src\GameDataGetterIO.cpp:17:0:
+..\src\/SearchDataDef.h:13:25: error: 'ROW_MAX' was not declared in this scope
+..\src\/SearchDataDef.h:13:34: error: 'COL_MAX' was not declared in this scope
+..\src\/SearchDataDef.h:16:19: error: 'ROW_MAX' was not declared in this scope
+..\src\/SearchDataDef.h:16:28: error: 'COL_MAX' was not declared in this scope
+..\src\GameDataGetterIO.cpp: In member function 'bool GameDataGetterIO::getNextGameData(GameData*)':
+..\src\GameDataGetterIO.cpp:66:40: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\GameDataGetterIO.cpp:68:35: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+..\src\GameDataGetterIO.cpp:73:54: error: 'printf' was not declared in this scope
+..\src\GameDataGetterIO.cpp:81:31: error: 'struct GX6SearchData::SearchData' has no member named '_board'
+..\src\GameDataGetterIO.cpp:82:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)1u'
+..\src\GameDataGetterIO.cpp:82:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:83:38: error: 'struct GX6SearchData::SearchData' has no member named '_board'
+..\src\GameDataGetterIO.cpp:84:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)2u'
+..\src\GameDataGetterIO.cpp:84:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:86:6: error: 'struct GX6SearchData::SearchData' has no member named '_board'
+..\src\GameDataGetterIO.cpp:87:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)0u'
+..\src\GameDataGetterIO.cpp:87:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:93:1: warning: control reaches end of non-void function [-Wreturn-type]
+Build error occurred, build is stopped
+Time consumed: 317  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetterIO.o ..\src\GameDataGetterIO.cpp
+In file included from ..\src\GameDataGetterIO.cpp:17:0:
+..\src\/SearchDataDef.h:13:25: error: 'ROW_MAX' was not declared in this scope
+..\src\/SearchDataDef.h:13:34: error: 'COL_MAX' was not declared in this scope
+..\src\/SearchDataDef.h:16:19: error: 'ROW_MAX' was not declared in this scope
+..\src\/SearchDataDef.h:16:28: error: 'COL_MAX' was not declared in this scope
+..\src\GameDataGetterIO.cpp: In member function 'bool GameDataGetterIO::getNextGameData(GameData*)':
+..\src\GameDataGetterIO.cpp:73:54: error: 'printf' was not declared in this scope
+..\src\GameDataGetterIO.cpp:81:31: error: 'struct GX6SearchData::SearchData' has no member named '_board'
+..\src\GameDataGetterIO.cpp:82:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)1u'
+..\src\GameDataGetterIO.cpp:82:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:83:38: error: 'struct GX6SearchData::SearchData' has no member named '_board'
+..\src\GameDataGetterIO.cpp:84:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)2u'
+..\src\GameDataGetterIO.cpp:84:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:86:6: error: 'struct GX6SearchData::SearchData' has no member named '_board'
+..\src\GameDataGetterIO.cpp:87:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)0u'
+..\src\GameDataGetterIO.cpp:87:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:93:1: warning: control reaches end of non-void function [-Wreturn-type]
+Build error occurred, build is stopped
+Time consumed: 314  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetterIO.o ..\src\GameDataGetterIO.cpp
+In file included from ..\src\GameDataGetterIO.cpp:17:0:
+..\src\/SearchDataDef.h:13:25: error: 'ROW_MAX' was not declared in this scope
+..\src\/SearchDataDef.h:13:34: error: 'COL_MAX' was not declared in this scope
+..\src\/SearchDataDef.h:16:19: error: 'ROW_MAX' was not declared in this scope
+..\src\/SearchDataDef.h:16:28: error: 'COL_MAX' was not declared in this scope
+..\src\GameDataGetterIO.cpp: In member function 'bool GameDataGetterIO::getNextGameData(GameData*)':
+..\src\GameDataGetterIO.cpp:81:31: error: 'struct GX6SearchData::SearchData' has no member named '_board'
+..\src\GameDataGetterIO.cpp:82:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)1u'
+..\src\GameDataGetterIO.cpp:82:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:83:38: error: 'struct GX6SearchData::SearchData' has no member named '_board'
+..\src\GameDataGetterIO.cpp:84:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)2u'
+..\src\GameDataGetterIO.cpp:84:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:86:6: error: 'struct GX6SearchData::SearchData' has no member named '_board'
+..\src\GameDataGetterIO.cpp:87:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)0u'
+..\src\GameDataGetterIO.cpp:87:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:93:1: warning: control reaches end of non-void function [-Wreturn-type]
+Build error occurred, build is stopped
+Time consumed: 315  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetterIO.o ..\src\GameDataGetterIO.cpp
+..\src\GameDataGetterIO.cpp: In member function 'bool GameDataGetterIO::getNextGameData(GameData*)':
+..\src\GameDataGetterIO.cpp:82:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)1u'
+..\src\GameDataGetterIO.cpp:82:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:84:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)2u'
+..\src\GameDataGetterIO.cpp:84:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:87:60: error: no match for 'operator=' in 'gameData->GameData::cellType[row][column] = (GameData::CellType::._0)0u'
+..\src\GameDataGetterIO.cpp:87:60: note: candidate is:
+..\src\/GameData.h:14:9: note: GameData::CellType& GameData::CellType::operator=(const GameData::CellType&)
+..\src\/GameData.h:14:9: note:   no known conversion for argument 1 from 'GameData::CellType::<anonymous enum>' to 'const GameData::CellType&'
+..\src\GameDataGetterIO.cpp:93:1: warning: control reaches end of non-void function [-Wreturn-type]
+Build error occurred, build is stopped
+Time consumed: 316  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameData.o ..\src\GameData.cpp
+In file included from ..\src\GameData.cpp:8:0:
+..\src\/GameData.h:15:8: error: 'GameData::CellType::CellType' has the same name as the class in which it is declared
+..\src\/GameData.h:27:2: error: 'GameData::CellType::CellType' names the constructor, not the type
+Build error occurred, build is stopped
+Time consumed: 66  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameData.o ..\src\GameData.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetterIO.o ..\src\GameDataGetterIO.cpp
+..\src\GameDataGetterIO.cpp: In member function 'bool GameDataGetterIO::getNextGameData(GameData*)':
+..\src\GameDataGetterIO.cpp:93:1: warning: control reaches end of non-void function [-Wreturn-type]
+g++ -o gx6 src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\ProcessResources.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\GameDataGetterIO.o src\GameDataGetter.o src\GameData.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lwsock32
+Build complete for project gx6
+Time consumed: 973  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetterIO.o ..\src\GameDataGetterIO.cpp
+g++ -o gx6 src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\ProcessResources.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\GameDataGetterIO.o src\GameDataGetter.o src\GameData.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lwsock32
+Build complete for project gx6
+Time consumed: 612  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetterIO.o ..\src\GameDataGetterIO.cpp
+g++ -o gx6 src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\ProcessResources.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\GameDataGetterIO.o src\GameDataGetter.o src\GameData.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lwsock32
+Build complete for project gx6
+Time consumed: 560  ms.  
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+****  WARNING: The "Default" Configuration may not build  ****
+****  because it uses the "cdt.managedbuild.toolchain.gnu.mingw.base"  ****
+****  tool-chain that is unsupported on this system.  ****
+
+****  Attempting to build...  **** 
+
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Frame.o ..\src\Frame.cpp
+Internal Builder: Cannot run program "g++": Launching failed
+Error: Program "g++" is not found in PATH
+
+PATH=[C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static]
+Build error occurred, build is stopped
+Time consumed: 90  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+****  WARNING: The "Default" Configuration may not build  ****
+****  because it uses the "cdt.managedbuild.toolchain.gnu.mingw.base"  ****
+****  tool-chain that is unsupported on this system.  ****
+
+****  Attempting to build...  **** 
+
+Nothing to build for gx6
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+****  WARNING: The "Default" Configuration may not build  ****
+****  because it uses the "cdt.managedbuild.toolchain.gnu.mingw.base"  ****
+****  tool-chain that is unsupported on this system.  ****
+
+****  Attempting to build...  **** 
+
+Nothing to build for gx6
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+****  WARNING: The "Default" Configuration may not build  ****
+****  because it uses the "cdt.managedbuild.toolchain.gnu.mingw.base"  ****
+****  tool-chain that is unsupported on this system.  ****
+
+****  Attempting to build...  **** 
+
+Nothing to build for gx6
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+****  WARNING: The "Default" Configuration may not build  ****
+****  because it uses the "cdt.managedbuild.toolchain.gnu.mingw.base"  ****
+****  tool-chain that is unsupported on this system.  ****
+
+****  Attempting to build...  **** 
+
+Nothing to build for gx6
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+****  WARNING: The "Default" Configuration may not build  ****
+****  because it uses the "cdt.managedbuild.toolchain.gnu.mingw.base"  ****
+****  tool-chain that is unsupported on this system.  ****
+
+****  Attempting to build...  **** 
+
+Nothing to build for gx6
+
+**** Clean-only build of configuration Default for project gx6 ****
+del src/RZDefender.d src/HistoryScore.d src/RZDefender.o src/DPointTable.o src/Frame.d src/HistoryScore.o src/OpeningFinder.d src/GameData.d src/DPointTable.d src/Frame.o src/SegmentTable.d src/GameDataGetterIO.o src/OpeningFinder.o src/GameData.o src/GameDataGetter.o src/GameDataGetter.d src/GameDataGetterIO.d src/Zone.d src/main.o src/SegmentTable.o src/main.d src/DTSSer.o src/Zone.o src/ComplexBoard.d src/ProcessResources.o src/MoveSearcher.o src/MoveSearcher.d src/ProcessResources.d src/DTSSer.d src/ComplexBoard.o src/Evaluator.d src/saver/saver.o src/Evaluator.o src/saver/saver.d gx6 src/RandTable.o src/RandTable.d src/opening/opening.o src/MoveGenerator.d src/utilities.o src/MoveGenerator.o src/utilities.d src/opening/opening.d
+Internal Builder: Cannot run program "del": Launching failed
+Error: Program "del" is not found in PATH
+
+PATH=[C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static]
+
+**** Clean-only build of configuration Default for project gx6 ****
+Build complete for project gx6
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+****  WARNING: The "Default" Configuration may not build  ****
+****  because it uses the "cdt.managedbuild.toolchain.gnu.mingw.base"  ****
+****  tool-chain that is unsupported on this system.  ****
+
+****  Attempting to build...  **** 
+
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\ComplexBoard.o ..\src\ComplexBoard.cpp
+Internal Builder: Cannot run program "g++": Launching failed
+Error: Program "g++" is not found in PATH
+
+PATH=[C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static]
+Build error occurred, build is stopped
+Time consumed: 40  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveSearcher.o ..\src\MoveSearcher.cpp
+..\src\MoveSearcher.cpp: In member function 'void MoveSearcher::SearchGoodMoves(CellType (*)[19], bool, int)':
+..\src\MoveSearcher.cpp:44: warning: format '%d' expects type 'int', but argument 2 has type 'DWORD'
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveGenerator.o ..\src\MoveGenerator.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\DPointTable.o ..\src\DPointTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\opening\opening.o ..\src\opening\opening.cpp
+In file included from ..\src\opening\opening.cpp:5:
+..\src\opening\/../saver/saver.h: In member function 'void SaverSummary::SetPos(int)':
+..\src\opening\/../saver/saver.h:74: warning: comparison between signed and unsigned integer expressions
+..\src\opening\/../saver/saver.h: In member function 'void SaverSummary::SetMoves(int)':
+..\src\opening\/../saver/saver.h:81: warning: comparison between signed and unsigned integer expressions
+..\src\opening\/../saver/saver.h: In member function 'void SaverSummary::SetWinner(int)':
+..\src\opening\/../saver/saver.h:100: warning: comparison between signed and unsigned integer expressions
+..\src\opening\opening.cpp: In member function 'void Opening::BuildTable()':
+..\src\opening\opening.cpp:136: warning: format '%s' expects type 'char*', but argument 3 has type 'FILE*'
+..\src\opening\opening.cpp:149: warning: statement has no effect
+..\src\opening\opening.cpp:162: warning: statement has no effect
+..\src\opening\opening.cpp:168: warning: comparison between signed and unsigned integer expressions
+..\src\opening\opening.cpp:181: warning: statement has no effect
+..\src\opening\opening.cpp:184: warning: statement has no effect
+..\src\opening\opening.cpp:211: warning: statement has no effect
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\RZDefender.o ..\src\RZDefender.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\ComplexBoard.o ..\src\ComplexBoard.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\ProcessResources.o ..\src\ProcessResources.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetter.o ..\src\GameDataGetter.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Zone.o ..\src\Zone.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\SegmentTable.o ..\src\SegmentTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\main.o ..\src\main.cpp
+..\src\main.cpp:15: warning: ignoring #pragma comment 
+..\src\main.cpp: In function 'int main(int, char**)':
+..\src\main.cpp:202: warning: comparison between signed and unsigned integer expressions
+..\src\main.cpp: In function 'DWORD SearchRequestProcessing(void*)':
+..\src\main.cpp:274: warning: no return statement in function returning non-void
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\OpeningFinder.o ..\src\OpeningFinder.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Evaluator.o ..\src\Evaluator.cpp
+..\src\Evaluator.cpp: In constructor 'Evaluator::Evaluator()':
+..\src\Evaluator.cpp:25: warning: comparison between signed and unsigned integer expressions
+..\src\Evaluator.cpp:25: warning: comparison between signed and unsigned integer expressions
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\utilities.o ..\src\utilities.cpp
+..\src\utilities.cpp:56:7: warning: extra tokens at end of #endif directive
+..\src\utilities.cpp: In function 'void PrintBoard(CellType (*)[19])':
+..\src\utilities.cpp:50: warning: enumeration value 'CELL_TYPE_NOT_A_CELL' not handled in switch
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\saver\saver.o ..\src\saver\saver.cpp
+In file included from ..\src\saver\saver.cpp:1:
+..\src\saver\/saver.h: In member function 'void SaverSummary::SetPos(int)':
+..\src\saver\/saver.h:74: warning: comparison between signed and unsigned integer expressions
+..\src\saver\/saver.h: In member function 'void SaverSummary::SetMoves(int)':
+..\src\saver\/saver.h:81: warning: comparison between signed and unsigned integer expressions
+..\src\saver\/saver.h: In member function 'void SaverSummary::SetWinner(int)':
+..\src\saver\/saver.h:100: warning: comparison between signed and unsigned integer expressions
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Frame.o ..\src\Frame.cpp
+..\src\Frame.cpp: In member function 'int Frame::IDMTDF(bool)':
+..\src\Frame.cpp:195: warning: format '%d' expects type 'int', but argument 2 has type 'clock_t'
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\HistoryScore.o ..\src\HistoryScore.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\DTSSer.o ..\src\DTSSer.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetterIO.o ..\src\GameDataGetterIO.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\RandTable.o ..\src\RandTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameData.o ..\src\GameData.cpp
+g++ -o gx6 src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\ProcessResources.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\GameDataGetterIO.o src\GameDataGetter.o src\GameData.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lwsock32
+Build complete for project gx6
+Time consumed: 8820  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6
+
+**** Clean-only build of configuration Default for project gx6 ****
+del src/RZDefender.d src/HistoryScore.d src/RZDefender.o src/DPointTable.o src/Frame.d src/HistoryScore.o src/OpeningFinder.d src/GameData.d src/DPointTable.d src/Frame.o src/SegmentTable.d src/GameDataGetterIO.o src/OpeningFinder.o src/GameData.o src/GameDataGetter.o src/GameDataGetter.d src/GameDataGetterIO.d src/Zone.d src/main.o src/SegmentTable.o src/main.d src/DTSSer.o src/Zone.o src/ComplexBoard.d src/ProcessResources.o src/MoveSearcher.o src/MoveSearcher.d src/ProcessResources.d src/DTSSer.d src/ComplexBoard.o src/Evaluator.d src/saver/saver.o src/Evaluator.o src/saver/saver.d gx6 src/RandTable.o src/RandTable.d src/opening/opening.o src/MoveGenerator.d src/utilities.o src/MoveGenerator.o src/utilities.d src/opening/opening.d
+Internal Builder: Cannot run program "del": Launching failed
+Error: Program "del" is not found in PATH
+
+PATH=[E:\sdk\mingw\bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static]
+
+**** Clean-only build of configuration Default for project gx6 ****
+Build complete for project gx6
+
+**** Rebuild of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\opening\opening.o ..\src\opening\opening.cpp
+In file included from ..\src\opening\opening.cpp:5:
+..\src\opening\/../saver/saver.h: In member function 'void SaverSummary::SetPos(int)':
+..\src\opening\/../saver/saver.h:74: warning: comparison between signed and unsigned integer expressions
+..\src\opening\/../saver/saver.h: In member function 'void SaverSummary::SetMoves(int)':
+..\src\opening\/../saver/saver.h:81: warning: comparison between signed and unsigned integer expressions
+..\src\opening\/../saver/saver.h: In member function 'void SaverSummary::SetWinner(int)':
+..\src\opening\/../saver/saver.h:100: warning: comparison between signed and unsigned integer expressions
+..\src\opening\opening.cpp: In member function 'void Opening::BuildTable()':
+..\src\opening\opening.cpp:136: warning: format '%s' expects type 'char*', but argument 3 has type 'FILE*'
+..\src\opening\opening.cpp:149: warning: statement has no effect
+..\src\opening\opening.cpp:162: warning: statement has no effect
+..\src\opening\opening.cpp:168: warning: comparison between signed and unsigned integer expressions
+..\src\opening\opening.cpp:181: warning: statement has no effect
+..\src\opening\opening.cpp:184: warning: statement has no effect
+..\src\opening\opening.cpp:211: warning: statement has no effect
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveGenerator.o ..\src\MoveGenerator.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\utilities.o ..\src\utilities.cpp
+..\src\utilities.cpp:56:7: warning: extra tokens at end of #endif directive
+..\src\utilities.cpp: In function 'void PrintBoard(CellType (*)[19])':
+..\src\utilities.cpp:50: warning: enumeration value 'CELL_TYPE_NOT_A_CELL' not handled in switch
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\ComplexBoard.o ..\src\ComplexBoard.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameData.o ..\src\GameData.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\MoveSearcher.o ..\src\MoveSearcher.cpp
+..\src\MoveSearcher.cpp: In member function 'void MoveSearcher::SearchGoodMoves(CellType (*)[19], bool, int)':
+..\src\MoveSearcher.cpp:44: warning: format '%d' expects type 'int', but argument 2 has type 'DWORD'
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\saver\saver.o ..\src\saver\saver.cpp
+In file included from ..\src\saver\saver.cpp:1:
+..\src\saver\/saver.h: In member function 'void SaverSummary::SetPos(int)':
+..\src\saver\/saver.h:74: warning: comparison between signed and unsigned integer expressions
+..\src\saver\/saver.h: In member function 'void SaverSummary::SetMoves(int)':
+..\src\saver\/saver.h:81: warning: comparison between signed and unsigned integer expressions
+..\src\saver\/saver.h: In member function 'void SaverSummary::SetWinner(int)':
+..\src\saver\/saver.h:100: warning: comparison between signed and unsigned integer expressions
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\RandTable.o ..\src\RandTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\DPointTable.o ..\src\DPointTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\RZDefender.o ..\src\RZDefender.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\DTSSer.o ..\src\DTSSer.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\main.o ..\src\main.cpp
+..\src\main.cpp:15: warning: ignoring #pragma comment 
+..\src\main.cpp: In function 'int main(int, char**)':
+..\src\main.cpp:202: warning: comparison between signed and unsigned integer expressions
+..\src\main.cpp: In function 'DWORD SearchRequestProcessing(void*)':
+..\src\main.cpp:274: warning: no return statement in function returning non-void
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetter.o ..\src\GameDataGetter.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Zone.o ..\src\Zone.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\SegmentTable.o ..\src\SegmentTable.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\ProcessResources.o ..\src\ProcessResources.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Evaluator.o ..\src\Evaluator.cpp
+..\src\Evaluator.cpp: In constructor 'Evaluator::Evaluator()':
+..\src\Evaluator.cpp:25: warning: comparison between signed and unsigned integer expressions
+..\src\Evaluator.cpp:25: warning: comparison between signed and unsigned integer expressions
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\OpeningFinder.o ..\src\OpeningFinder.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\GameDataGetterIO.o ..\src\GameDataGetterIO.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\HistoryScore.o ..\src\HistoryScore.cpp
+g++ -O2 -g -Wall -c -fmessage-length=0 -o src\Frame.o ..\src\Frame.cpp
+..\src\Frame.cpp: In member function 'int Frame::IDMTDF(bool)':
+..\src\Frame.cpp:195: warning: format '%d' expects type 'int', but argument 2 has type 'clock_t'
+g++ -o gx6 src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\ProcessResources.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\GameDataGetterIO.o src\GameDataGetter.o src\GameData.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lwsock32
+Build complete for project gx6
+Time consumed: 7990  ms.  
