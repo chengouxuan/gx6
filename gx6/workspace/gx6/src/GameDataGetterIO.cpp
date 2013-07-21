@@ -56,16 +56,16 @@ bool GameDataGetterIO::getNextGameData(GameData *gameData) {
 		}
 
 		RequestData req;
-		size_t recvLen = 0;
+		size_t totalRecvLen = 0;
 		do {
-			int newRecvLen = recv(sockConn, (char *)(&req) + recvLen, sizeof(RequestData) - recvLen, 0);
+			int newRecvLen = recv(sockConn, (char *)(&req) + totalRecvLen, sizeof(RequestData) - totalRecvLen, 0);
 			if (newRecvLen < 0) {
 				break;
 			}
-			recvLen += newRecvLen;
-		} while (recvLen < sizeof(RequestData));
+			totalRecvLen += newRecvLen;
+		} while (totalRecvLen < sizeof(RequestData));
 
-		if (recvLen < sizeof(RequestData)) {
+		if (totalRecvLen < sizeof(RequestData)) {
 			break;
 		}
 
