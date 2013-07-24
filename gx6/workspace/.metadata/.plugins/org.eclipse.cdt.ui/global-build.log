@@ -1266,3 +1266,23 @@ g++ -O2 -g -Wall -c -fmessage-length=0 -o src\HistoryScore.o ..\src\HistoryScore
 g++ -o gx6 src\utilities.o src\saver\saver.o src\opening\opening.o src\main.o src\Zone.o src\SegmentTable.o src\RandTable.o src\RZDefender.o src\ProcessResources.o src\OpeningFinder.o src\MoveSearcher.o src\MoveGenerator.o src\HistoryScore.o src\GameDataGetterIO.o src\GameDataGetter.o src\GameData.o src\Frame.o src\Evaluator.o src\DTSSer.o src\DPointTable.o src\ComplexBoard.o -lwsock32
 Build complete for project gx6
 Time consumed: 8840  ms.  
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6
+
+**** Build of configuration Default for project gx6 ****
+
+**** Internal Builder is used for build               ****
+Nothing to build for gx6

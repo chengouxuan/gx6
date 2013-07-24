@@ -5,19 +5,36 @@
 	</section>
 	<section name="completion_proposal_size">
 	</section>
+	<section name="org.eclipse.cdt.internal.ui.browser.opentype.OpenTypeActionSettings">
+		<item value="true" key="show_structs"/>
+		<item value="true" key="show_lowlevel"/>
+		<item value="true" key="show_macros"/>
+		<item value="true" key="show_variables"/>
+		<item value="585" key="width"/>
+		<item value="true" key="show_functions"/>
+		<item value="true" key="show_enums"/>
+		<item value="755" key="height"/>
+		<item value="true" key="show_classes"/>
+		<item value="true" key="show_typedefs"/>
+		<item value="true" key="show_namespaces"/>
+		<item value="true" key="show_unions"/>
+		<item value="true" key="show_enumerators"/>
+		<item value="0" key="y"/>
+		<item value="428" key="x"/>
+	</section>
 	<section name="PDOMSearchPage">
+	</section>
+	<section name="RenameInformationPopup">
 	</section>
 	<section name="NewClassWizardPage">
 		<item value="true" key="stubSelected1"/>
-		<item value="false" key="namespaceSelected"/>
 		<item value="false" key="testFileSelected"/>
+		<item value="false" key="namespaceSelected"/>
 		<item value="false" key="stubInline1"/>
 		<item value="false" key="stubVirtual1"/>
 		<item value="false" key="stubInline0"/>
-		<item value="" key="namespace"/>
 		<item value="true" key="stubSelected0"/>
-	</section>
-	<section name="RenameInformationPopup">
+		<item value="" key="namespace"/>
 	</section>
 	<section name="CRenameRefactoringInputPage">
 	</section>
